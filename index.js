@@ -1,6 +1,6 @@
 // write your code below!
 var name = "Susan"
-var height = "39"
-var message = ` is ${parseInt(height)} inches tall`+ $(name)
+var height = 39
+var message = `${name} and height is ${height} inches tall`
 
 module.exports = {name, height, message}
